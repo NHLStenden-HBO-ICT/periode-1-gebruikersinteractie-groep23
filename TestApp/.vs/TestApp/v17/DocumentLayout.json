@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\villa\\source\\repos\\TestApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\villa\\source\\repos\\testapp\\testapp\\aantalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\aantalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\villa\\source\\repos\\testapp\\testapp\\aantalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\aantalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\villa\\source\\repos\\testapp\\testapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AantalWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\villa\\source\\repos\\TestApp\\TestApp\\AantalWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp\\AantalWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\villa\\source\\repos\\TestApp\\TestApp\\AantalWindow.xaml.cs",
+              "RelativeToolTip": "TestApp\\AantalWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:13:19.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AantalWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\villa\\source\\repos\\TestApp\\TestApp\\AantalWindow.xaml",
+              "RelativeDocumentMoniker": "TestApp\\AantalWindow.xaml",
+              "ToolTip": "C:\\Users\\villa\\source\\repos\\TestApp\\TestApp\\AantalWindow.xaml",
+              "RelativeToolTip": "TestApp\\AantalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-10T14:11:20.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\villa\\source\\repos\\TestApp\\TestApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TestApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\villa\\source\\repos\\TestApp\\TestApp\\MainWindow.xaml",
+              "RelativeToolTip": "TestApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-10T14:10:50.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
