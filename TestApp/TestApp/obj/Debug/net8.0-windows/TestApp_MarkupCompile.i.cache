@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\
+C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\
 TestApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\villa\source\repos\TestApp\TestApp\App.xaml
-3983016021
+C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\App.xaml
+41985793900
 
-8246655164
-1981124507420
-AantalWindow.xaml;CharacterWindow.xaml;MainWindow.xaml;
+10-1024854302
+198-556154604
+AantalWindow.xaml;CharacterWindow.xaml;MainWindow.xaml;OptieWindow.xaml;
 
-False
+True
 

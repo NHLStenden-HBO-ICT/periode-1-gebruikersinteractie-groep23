@@ -14,6 +14,9 @@ using System.Windows.Shapes;
 
 namespace TestApp
 {
+    /// <summary>
+    /// Interaction logic for AantalWindow.xaml
+    /// </summary>
     public partial class AantalWindow : Window
     {
         public AantalWindow()
@@ -23,20 +26,14 @@ namespace TestApp
 
         private void Robot1_Click(object sender, RoutedEventArgs e)
         {
-           
-        }
-
-        private void Robot2_Click(object sender, RoutedEventArgs e)
-        {
             CharacterWindow characterWindow = new CharacterWindow();
             characterWindow.Show();
             this.Close();
         }
-        private void Back_Click(object sender, RoutedEventArgs e)
+
+        private void Robot2_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Close();
+
         }
     }
 }

@@ -20,6 +20,7 @@
             <RowDefinition Height="68*"/>
         </Grid.RowDefinitions>
         <Button Name="Play" Click="Play_Click" Grid.Row="1" Grid.Column="1" Background="Transparent"></Button>
+        <Button x:Name="btnOptie" Content="Button" Margin="19,79,284,16" Grid.Row="2" Click="btnOPtie_Click"/>
     </Grid>
     <Window.Background>
         <ImageBrush ImageSource="StartPagina.png" Stretch="Fill" ></ImageBrush>
