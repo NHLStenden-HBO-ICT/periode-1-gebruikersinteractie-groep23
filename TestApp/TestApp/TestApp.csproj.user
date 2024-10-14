@@ -13,6 +13,9 @@
     <Compile Update="CharacterWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Level1Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="OptieWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +25,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CharacterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Level1Window.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

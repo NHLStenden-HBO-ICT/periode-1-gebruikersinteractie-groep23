@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\
 TestApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\App.xaml
-41985793900
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\App.xaml
+5279816527
 
-8-889894061
+9-271582534
 198-556154604
-AantalWindow.xaml;CharacterWindow.xaml;MainWindow.xaml;OptieWindow.xaml;
+AantalWindow.xaml;CharacterWindow.xaml;Level1Window.xaml;MainWindow.xaml;OptieWindow.xaml;
 
-False
+True
 

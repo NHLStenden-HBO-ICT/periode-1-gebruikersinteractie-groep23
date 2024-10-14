@@ -10,22 +10,19 @@
         Title="AantalWindow" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="76*"/>
-            <RowDefinition Height="103*"/>
+            <RowDefinition Height="179*"/>
             <RowDefinition Height="40*"/>
             <RowDefinition Height="26*"/>
             <RowDefinition Height="38*"/>
             <RowDefinition Height="167*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="98*"/>
-            <ColumnDefinition Width="221*"/>
+            <ColumnDefinition Width="319*"/>
             <ColumnDefinition Width="164*"/>
             <ColumnDefinition Width="317*"/>
         </Grid.ColumnDefinitions>
-        <Button Name="Robot1" Click="Robot1_Click" Grid.Row="2" Grid.Column="2" Background="Transparent"></Button>
-        <Button Name="Robot2" Click="Robot2_Click" Grid.Row="4" Grid.Column="2" Background="Transparent"></Button>
-        <Button Name="Back" Click="Back_Click" Background="Transparent" BorderBrush="Transparent" Grid.Column="0" Grid.Row="0"></Button>
+        <Button Name="Robot1" Click="Robot1_Click" Grid.Row="1" Grid.Column="1" Background="Transparent"></Button>
+        <Button Name="Robot2" Click="Robot2_Click" Grid.Row="3" Grid.Column="1" Background="Transparent"></Button>
     </Grid>
     <Window.Background>
         <ImageBrush ImageSource="AantalScherm.png" Stretch="Fill"></ImageBrush>
