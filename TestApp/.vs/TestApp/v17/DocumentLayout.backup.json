@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\",
+  "WorkspaceRootPath": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\level1window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\level1window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\level1window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\testapp\\testapp\\level1window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\level1window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\optiewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\optiewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\optiewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\optiewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\rick velting\\downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\testapp\\testapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\obj\\Debug\\net8.0-windows\\OptieWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestApp\\obj\\Debug\\net8.0-windows\\OptieWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,101 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OptieWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\OptieWindow.xaml",
-              "RelativeDocumentMoniker": "TestApp\\OptieWindow.xaml",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\OptieWindow.xaml",
-              "RelativeToolTip": "TestApp\\OptieWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-11T11:16:10.506Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Level1Window.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\Level1Window.xaml.cs",
-              "RelativeDocumentMoniker": "TestApp\\Level1Window.xaml.cs",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\Level1Window.xaml.cs",
-              "RelativeToolTip": "TestApp\\Level1Window.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:20:09.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Level1Window.xaml",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\Level1Window.xaml",
+              "DocumentMoniker": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\TestApp\\Level1Window.xaml",
               "RelativeDocumentMoniker": "TestApp\\Level1Window.xaml",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\Level1Window.xaml",
+              "ToolTip": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\TestApp\\Level1Window.xaml",
               "RelativeToolTip": "TestApp\\Level1Window.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-14T13:16:23.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OptieWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\OptieWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TestApp\\OptieWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\OptieWindow.xaml.cs",
-              "RelativeToolTip": "TestApp\\OptieWindow.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAhwDAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:30:49.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Globals.cs",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\Globals.cs",
-              "RelativeDocumentMoniker": "TestApp\\Globals.cs",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\Globals.cs",
-              "RelativeToolTip": "TestApp\\Globals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T12:24:38.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TestApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TestApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:51:27.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OptieWindow.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\obj\\Debug\\net8.0-windows\\OptieWindow.g.i.cs",
-              "RelativeDocumentMoniker": "TestApp\\obj\\Debug\\net8.0-windows\\OptieWindow.g.i.cs",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\obj\\Debug\\net8.0-windows\\OptieWindow.g.i.cs",
-              "RelativeToolTip": "TestApp\\obj\\Debug\\net8.0-windows\\OptieWindow.g.i.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAgwHYAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T16:22:34.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "TestApp\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Rick Velting\\Downloads\\periode-1-gebruikersinteractie-groep23-main\\periode-1-gebruikersinteractie-groep23-main\\TestApp\\TestApp\\MainWindow.xaml",
-              "RelativeToolTip": "TestApp\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-11T11:50:15.648Z"
+              "WhenOpened": "2024-10-15T18:18:14.025Z",
+              "EditorCaption": ""
             }
           ]
         }
