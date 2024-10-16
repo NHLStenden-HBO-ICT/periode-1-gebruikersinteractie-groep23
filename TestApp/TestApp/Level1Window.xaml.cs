@@ -16,22 +16,42 @@ namespace game_7_8
     /// </summary>
     public partial class Level1Window : Window
     {
-        private int score = 0;
-        private double playerSpeed = 10;
-        private double jumpSpeed = 15;
-        private double gravity = 0.5;
-        private bool isJumping = false;
-        private double velocityY = 0;
-        private Rect playerHitbox;
-        private DispatcherTimer gameTimer;
+        int Force;
+        int Gravity;
+        bool Player_jump;
+        int speed = 12;
+        int score = 0;
+        double playerSpeed = 8;
+        double jumpSpeed = 12;
+        double gravity = 0.5;
+        bool isJumping = false;
+        double velocityY = 0;
+        Rect playerHitbox;
+        DispatcherTimer gameTimer = new DispatcherTimer();
+        bool goLeft, goRight;
 
         public Level1Window()
         {
             InitializeComponent();
+
+            GameCanvas.Focus();
+            gameTimer.Tick += GameLoop;
             gameTimer = new DispatcherTimer();
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
-            gameTimer.Tick += GameLoop;
+            gameTimer.Tick += GameTimerEvent;
             gameTimer.Start();
+        }
+
+        private void GameTimerEvent(object? sender, EventArgs e)
+        {
+            if (goLeft == true && Canvas.GetLeft(Player) > 5)
+            {
+                Canvas.SetLeft(Player, Canvas.GetLeft(Player) - playerSpeed);
+            }
+            if (goRight == true && Canvas.GetLeft(Player) + (Player.Width + 20) < Application.Current.MainWindow.Width)
+            {
+                Canvas.SetLeft(Player, Canvas.GetLeft(Player) + playerSpeed);
+            }
         }
 
         private void GameLoop(object sender, EventArgs e)
@@ -154,20 +174,36 @@ namespace game_7_8
             // Reset de coins en vijanden indien nodig
         }
 
-        private void Window_KeyDown(object sender, KeyEventArgs e)
+        private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            // Speler beweging links/rechts
+           
             if (e.Key == Key.Left)
             {
-                Canvas.SetLeft(Player, Canvas.GetLeft(Player) - playerSpeed);
+                goLeft = true;
             }
-            else if (e.Key == Key.Right)
+            if (e.Key == Key.Right)
             {
-                Canvas.SetLeft(Player, Canvas.GetLeft(Player) + playerSpeed);
+                goRight = true;
             }
-            else if (e.Key == Key.Space && !isJumping)
+            if (e.Key == Key.Space)
             {
                 isJumping = true;
+            }
+        }
+
+        private void KeyIsUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Left)
+            {
+                goLeft = false;
+            }
+            if (e.Key == Key.Right)
+            {
+                goRight = false;
+            }
+            if (e.Key == Key.Space && !isJumping)
+            {
+                isJumping = false;
                 velocityY = -jumpSpeed;
             }
         }

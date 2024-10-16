@@ -69,7 +69,7 @@ namespace TestApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TestApp;V1.0.0.0;component/characterwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TestApp;component/characterwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CharacterWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="None"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1080" Width="1920">
     <Grid>
-        <Canvas x:Name="GameCanvas" Background="LightBlue">
+        <Canvas Name="GameCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
             <!-- Deur -->
             <Rectangle x:Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="10" Canvas.Top="10"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle x:Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="110" Canvas.Top="360"/>
+            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="110" Canvas.Top="360"/>
 
             <!-- Platforms -->
             <Rectangle Width="120" Height="20" Fill="Brown" Canvas.Left="10" Canvas.Top="60"/>
