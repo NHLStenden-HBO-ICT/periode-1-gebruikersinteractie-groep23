@@ -5,30 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:game_7_8"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowState="Maximized"
+        WindowStyle="None"
+        Title="MainWindow" Height="1080" Width="1920">
     <Grid>
-        <Canvas x:Name="GameCanvas" Background="LightBlue">
+        <Canvas Name="GameCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
             <!-- Deur -->
             <Rectangle x:Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="10" Canvas.Top="10"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle x:Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="110" Canvas.Top="360"/>
+            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="110" Canvas.Top="360"/>
 
             <!-- Platforms -->
-            <Rectangle Width="120" Height="20" Fill="Brown" Canvas.Left="10" Canvas.Top="60"/>
-            <Rectangle Width="120" Height="20" Fill="Brown" Canvas.Left="150" Canvas.Top="200"/>
-            <Rectangle Width="120" Height="20" Fill="Brown" Canvas.Left="50" Canvas.Top="400"/>
-            <Rectangle Width="120" Height="20" Fill="Brown" Canvas.Left="250" Canvas.Top="300"/>
-
-            <!-- Coins -->
-            <Rectangle Width="20" Height="20" Fill="Yellow" Canvas.Left="90" Canvas.Top="40" Tag="Coin" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <Rectangle Width="20" Height="20" Fill="Yellow" Canvas.Left="160" Canvas.Top="180" Tag="Coin"/>
-            <Rectangle Width="20" Height="20" Fill="Yellow" Canvas.Left="60" Canvas.Top="380" Tag="Coin"/>
-            <Rectangle Width="20" Height="20" Fill="Yellow" Canvas.Left="260" Canvas.Top="280" Tag="Coin"/>
-
-            <!-- Dodelijke blokjes -->
-            <Rectangle x:Name="Enemy1" Width="40" Height="40" Fill="Pink" Canvas.Left="230" Canvas.Top="160"/>
-            <Rectangle x:Name="Enemy2" Width="40" Height="40" Fill="Pink" Canvas.Left="330" Canvas.Top="260"/>
+            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="10" Canvas.Top="60" Tag="Platform"/>
+            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="150" Canvas.Top="200" Tag="Platform"/>
+            <Rectangle Name="Platform1" Width="120" Height="20" Fill="Brown" Canvas.Left="50" Canvas.Top="400" Tag="Platform"/>
+            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="250" Canvas.Top="300" Tag="Platform"/>
 
             <!-- Score -->
             <TextBlock x:Name="ScoreText" Text="Score: 0" FontSize="16" Canvas.Right="10" Canvas.Top="10"/>

@@ -26,14 +26,21 @@ namespace TestApp
 
         private void Robot1_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
+
+        private void Robot2_Click(object sender, RoutedEventArgs e)
+        {
             CharacterWindow characterWindow = new CharacterWindow();
             characterWindow.Show();
             this.Close();
         }
 
-        private void Robot2_Click(object sender, RoutedEventArgs e)
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

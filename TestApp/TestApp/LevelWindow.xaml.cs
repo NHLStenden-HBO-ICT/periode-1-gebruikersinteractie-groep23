@@ -1,4 +1,5 @@
-﻿using System;
+﻿using game_7_8;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,26 +16,26 @@ using System.Windows.Shapes;
 namespace TestApp
 {
     /// <summary>
-    /// Interaction logic for CharacterWindow.xaml
+    /// Interaction logic for LevelWindow.xaml
     /// </summary>
-    public partial class CharacterWindow : Window
+    public partial class LevelWindow : Window
     {
-        public CharacterWindow()
+        public LevelWindow()
         {
             InitializeComponent();
         }
 
-        private void Back_Click(object sender, RoutedEventArgs e)
+        private void Level1_Click(object sender, RoutedEventArgs e)
         {
-            AantalWindow aantalWindow = new AantalWindow();
-            aantalWindow.Show();
+            Level1Window level1Window = new Level1Window();
+            level1Window.Show();
             this.Close();
         }
 
-        private void Confirm_Click(object sender, RoutedEventArgs e)
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
-            LevelWindow levelWindow = new LevelWindow();
-            levelWindow.Show();
+            CharacterWindow characterWindow = new CharacterWindow();
+            characterWindow.Show();
             this.Close();
         }
     }
