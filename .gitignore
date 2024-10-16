@@ -583,3 +583,11 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,csharp
 
+/TestApp/.vs/TestApp/CopilotIndices/0.2.1634.3922/CodeChunks.db
+/TestApp/.vs/TestApp/CopilotIndices/0.2.1634.3922/SemanticSymbols.db-shm
+/TestApp/.vs/TestApp/CopilotIndices/0.2.1634.3922/SemanticSymbols.db-wal
+/TestApp/.vs/TestApp/v17/.suo
+/TestApp/.vs/TestApp/DesignTimeBuild/.dtbcache.v2
+/TestApp/.vs/TestApp/v17/.futdcache.v2
+/TestApp/.vs/TestApp/v17/DocumentLayout.json
+/TestApp/TestApp/obj/Debug/net8.0-windows/TestApp.designer.runtimeconfig.json
