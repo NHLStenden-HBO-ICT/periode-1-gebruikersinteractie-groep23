@@ -33,7 +33,9 @@ namespace TestApp
 
         private void Confirm_Click(object sender, RoutedEventArgs e)
         {
-
+            LevelWindow levelWindow = new LevelWindow();
+            levelWindow.Show();
+            this.Close();
         }
     }
 }

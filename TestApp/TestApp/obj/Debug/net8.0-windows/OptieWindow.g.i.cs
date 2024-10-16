@@ -85,7 +85,7 @@ namespace TestApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TestApp;V1.0.0.0;component/optiewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TestApp;component/optiewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\OptieWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
