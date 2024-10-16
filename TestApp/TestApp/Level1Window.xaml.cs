@@ -16,26 +16,16 @@ namespace game_7_8
     /// </summary>
     public partial class Level1Window : Window
     {
-<<<<<<< HEAD
-=======
-        int Force;
-        int Gravity;
->>>>>>> f2d6984b048d846a4d0515b0cb23ffa301cf6b54
+
         bool Player_jump;
         int speed = 12;
         int score = 0;
         double playerSpeed = 8;
-<<<<<<< HEAD
         int jumpSpeed = 12;
         int gravity = 1;
         bool isJumping = false;
         int velocityY = 0;
-=======
-        double jumpSpeed = 12;
-        double gravity = 0.5;
-        bool isJumping = false;
-        double velocityY = 0;
->>>>>>> f2d6984b048d846a4d0515b0cb23ffa301cf6b54
+
         Rect playerHitbox;
         DispatcherTimer gameTimer = new DispatcherTimer();
         bool goLeft, goRight;
@@ -45,38 +35,14 @@ namespace game_7_8
             InitializeComponent();
 
             GameCanvas.Focus();
-<<<<<<< HEAD
+
             gameTimer = new DispatcherTimer();
             gameTimer.Tick += GameLoop;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
             gameTimer.Start();
         }
-
-
-
-        private void GameLoop(object? sender, EventArgs e)
-=======
-            gameTimer.Tick += GameLoop;
-            gameTimer = new DispatcherTimer();
-            gameTimer.Interval = TimeSpan.FromMilliseconds(20);
-            gameTimer.Tick += GameTimerEvent;
-            gameTimer.Start();
-        }
-
-        private void GameTimerEvent(object? sender, EventArgs e)
-        {
-            if (goLeft == true && Canvas.GetLeft(Player) > 5)
-            {
-                Canvas.SetLeft(Player, Canvas.GetLeft(Player) - playerSpeed);
-            }
-            if (goRight == true && Canvas.GetLeft(Player) + (Player.Width + 20) < Application.Current.MainWindow.Width)
-            {
-                Canvas.SetLeft(Player, Canvas.GetLeft(Player) + playerSpeed);
-            }
-        }
-
         private void GameLoop(object sender, EventArgs e)
->>>>>>> f2d6984b048d846a4d0515b0cb23ffa301cf6b54
+
         {
             // Speler beweging en zwaartekracht
             velocityY += gravity;
