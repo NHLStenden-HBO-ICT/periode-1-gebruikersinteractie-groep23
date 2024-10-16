@@ -26,6 +26,6 @@
 
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="NaamScherm.png" Stretch="Fill"></ImageBrush>
+        <ImageBrush ImageSource="Resources/NaamScherm.png" Stretch="Fill"></ImageBrush>
     </Window.Background>
 </Window>
