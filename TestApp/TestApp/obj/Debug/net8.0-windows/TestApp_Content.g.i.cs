@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("startpagina.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/background_muziek.mp3")]
 
 

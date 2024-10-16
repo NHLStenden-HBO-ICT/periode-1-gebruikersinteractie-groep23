@@ -10,9 +10,15 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\App.xaml
+<<<<<<< Updated upstream
 41985793900
 
 8-889894061
+=======
+5279816527
+1708453152
+9-271582534
+>>>>>>> Stashed changes
 198-556154604
 AantalWindow.xaml;CharacterWindow.xaml;MainWindow.xaml;OptieWindow.xaml;
 

@@ -25,6 +25,6 @@
         <Button Name="Robot2" Click="Robot2_Click" Grid.Row="3" Grid.Column="1" Background="Transparent"></Button>
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="AantalScherm.png" Stretch="Fill"></ImageBrush>
+        <ImageBrush ImageSource="Resources/AantalScherm.png" Stretch="Fill"></ImageBrush>
     </Window.Background>
 </Window>
