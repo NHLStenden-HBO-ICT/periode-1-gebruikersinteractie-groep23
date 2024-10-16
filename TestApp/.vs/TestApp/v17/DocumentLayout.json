@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\testapp\\testapp\\level1window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\level1window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|c:\\users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\testapp\\testapp\\level1window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{497680C3-3CD9-4015-8A9A-56949487FBCA}|TestApp\\TestApp.csproj|solutionrelative:testapp\\level1window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Level1Window.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\TestApp\\Level1Window.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp\\Level1Window.xaml.cs",
+              "ToolTip": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\TestApp\\Level1Window.xaml.cs",
+              "RelativeToolTip": "TestApp\\Level1Window.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:53:36.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Level1Window.xaml",
               "DocumentMoniker": "C:\\Users\\villa\\source\\repos\\periode-1-gebruikersinteractie-groep23.git\\TestApp\\TestApp\\Level1Window.xaml",
               "RelativeDocumentMoniker": "TestApp\\Level1Window.xaml",
@@ -30,6 +47,7 @@
               "RelativeToolTip": "TestApp\\Level1Window.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-16T07:45:48.772Z",
+<<<<<<< HEAD
               "EditorCaption": ""
             },
             {
@@ -43,6 +61,8 @@
               "ViewState": "AgIAADYAAAAAAAAAAAAYwFIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T07:53:36.224Z",
+=======
+>>>>>>> f2d6984b048d846a4d0515b0cb23ffa301cf6b54
               "EditorCaption": ""
             }
           ]
