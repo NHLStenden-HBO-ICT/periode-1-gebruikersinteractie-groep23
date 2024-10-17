@@ -13,17 +13,41 @@
 		<None Remove="LevelScherm.png" />
 		<None Remove="NaamScherm.png" />
 		<None Remove="Optiescherm.png" />
+		<None Remove="Resources\AantalScherm.png" />
+		<None Remove="Resources\back arrow.png" />
+		<None Remove="Resources\BackArrow.png" />
+		<None Remove="Resources\Background_Muziek.mp3" />
+		<None Remove="Resources\imgEffectenAan.png" />
+		<None Remove="Resources\imgEffectenuit.png" />
+		<None Remove="Resources\imgMuziekAan.png" />
+		<None Remove="Resources\imgMuziekUit.png" />
+		<None Remove="Resources\NaamScherm.png" />
+		<None Remove="Resources\optiescherm%28nieuw%29.png" />
+		<None Remove="Resources\Optiescherm%28oud%29.png" />
+		<None Remove="Resources\StartPagina.png" />
+		<None Remove="Resources\Tandwiel.png" />
 		<None Remove="StartPagina.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Resource Include="AantalScherm.png" />
-	  <Resource Include="LevelScherm.png" />
-	  <Resource Include="NaamScherm.png" />
-	  <Resource Include="Optiescherm.png" />
+	  <Content Include="Resources\Background_Muziek.mp3">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
 	</ItemGroup>
 
 	<ItemGroup>
-		<Resource Include="StartPagina.png" />
+	  <Resource Include="LevelScherm.png" />
+	  <Resource Include="Resources\AantalScherm.png" />
+	  <Resource Include="Resources\back arrow.png" />
+	  <Resource Include="Resources\BackArrow.png" />
+	  <Resource Include="Resources\imgEffectenAan.png" />
+	  <Resource Include="Resources\imgEffectenuit.png" />
+	  <Resource Include="Resources\imgMuziekAan.png" />
+	  <Resource Include="Resources\imgMuziekUit.png" />
+	  <Resource Include="Resources\NaamScherm.png" />
+	  <Resource Include="Resources\optiescherm(nieuw).png" />
+	  <Resource Include="Resources\Optiescherm(oud).png" />
+	  <Resource Include="Resources\StartPagina.png" />
+	  <Resource Include="Resources\Tandwiel.png" />
 	</ItemGroup>
 </Project>
