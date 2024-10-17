@@ -62,7 +62,7 @@ namespace game_7_8
                 }
                 Canvas.SetTop(Player, Canvas.GetTop(Player) + velocityY);
 
-                if (Canvas.GetTop(Player) + (Player.Height * 2) > Application.Current.MainWindow.Height)
+                if (Canvas.GetTop(Player) + (Player.Height * 0.2) > Application.Current.MainWindow.Height)
                 {
                     Canvas.SetTop(Player, -80);
                 }
@@ -75,7 +75,7 @@ namespace game_7_8
                     Rect playerHitBox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
                     Rect platformHitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
 
-                    if (playerHitBox.IntersectsWith(platformHitBox) && velocityY >=0)
+                    if (playerHitBox.IntersectsWith(platformHitBox) && velocityY >= 0)
                     {
                         if (Canvas.GetTop(Player) + Player.Height <= Canvas.GetTop(x) + 5)
                         {
@@ -83,38 +83,11 @@ namespace game_7_8
                             Canvas.SetTop(Player, Canvas.GetTop(x) - Player.Height);
                             isJumping = false;
                         }
-                         
+
                     }
                 }
             }
-            // Check als speler bij de deur is en alle coins heeft verzameld
-            CheckIfGameWon();
         }
-
-        private void CheckIfGameWon()
-        {
-            if (score == 4) // Alle coins verzameld
-            {
-                Rect doorHitbox = new Rect(Canvas.GetLeft(Door), Canvas.GetTop(Door), Door.Width, Door.Height);
-                playerHitbox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
-
-                if (playerHitbox.IntersectsWith(doorHitbox))
-                {
-                    MessageBox.Show("You win!");
-                    ResetGame();
-                }
-            }
-        }
-
-        private void ResetGame()
-        {
-            score = 0;
-            ScoreText.Text = "Score: 0";
-            Canvas.SetLeft(Player, 300);
-            Canvas.SetTop(Player, 500);
-            // Reset de coins en vijanden indien nodig
-        }
-
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
            

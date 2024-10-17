@@ -24,30 +24,30 @@
             <RowDefinition Height="124*"/>
             <RowDefinition Height="35*"/>
             <RowDefinition Height="84*"/>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="41*"/>
+            <RowDefinition Height="50*"/>
             <RowDefinition Height="23*"/>
         </Grid.RowDefinitions>
         <Button Name="Back" Click="Back_Click" Grid.Row="0" Grid.Column="0" Background="Transparent" BorderBrush="Transparent"></Button>
+        <Button Name="Oplsaan" Click="Opslaan_Click" Grid.Row="6" Grid.Column="4" Background="Transparent" BorderBrush="Transparent"></Button>
 
         <!-- TextBox voor Speler 1 -->
         <TextBox x:Name="SpelerNaamTextBox1"
              Grid.Row="2" Grid.Column="2"
-             HorizontalAlignment="Left" VerticalAlignment="Center"
-             Width="540" Height="65"
+             HorizontalAlignment="Center" VerticalAlignment="Center"
+             Width="230" Height="66"
              FontSize="40" VerticalContentAlignment="Center"
              HorizontalContentAlignment="Center"/>
 
         <!-- TextBox voor Speler 2 -->
         <TextBox x:Name="SpelerNaamTextBox2"
              Grid.Row="4" Grid.Column="2"
-             HorizontalAlignment="Left" VerticalAlignment="Center"
-             Width="540" Height="65"
+             HorizontalAlignment="Center" VerticalAlignment="Center"
+             Width="230" Height="65"
              FontSize="40" VerticalContentAlignment="Center"
              HorizontalContentAlignment="Center"/>
 
-        
-        
+
+
 
     </Grid>
     <Window.Background>

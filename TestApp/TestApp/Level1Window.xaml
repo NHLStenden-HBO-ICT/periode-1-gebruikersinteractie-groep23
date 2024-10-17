@@ -7,20 +7,21 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="None"
-        Title="MainWindow" Height="1080" Width="1920">
+        Title="MainWindow" Height="850" Width="1600">
     <Grid>
         <Canvas Name="GameCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
             <!-- Deur -->
             <Rectangle x:Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="10" Canvas.Top="10"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="110" Canvas.Top="360"/>
+            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="10" Canvas.Top="750" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
             <!-- Platforms -->
-            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="10" Canvas.Top="60" Tag="Platform"/>
-            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="150" Canvas.Top="200" Tag="Platform"/>
-            <Rectangle Name="Platform1" Width="120" Height="20" Fill="Brown" Canvas.Left="50" Canvas.Top="400" Tag="Platform"/>
-            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="250" Canvas.Top="300" Tag="Platform"/>
+            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="595" Canvas.Top="696" Tag="Platform"/>
+            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="467" Canvas.Top="750" Tag="Platform" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform1" Width="402" Height="20" Fill="Brown" Canvas.Top="823" Tag="Platform" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="342" Canvas.Top="792" Tag="Platform"/>
+            <Rectangle Name="Platform5" Width="45" Height="20" Fill="Brown" Canvas.Left="685" Canvas.Top="651" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <!-- Score -->
             <TextBlock x:Name="ScoreText" Text="Score: 0" FontSize="16" Canvas.Right="10" Canvas.Top="10"/>
