@@ -28,6 +28,6 @@
         <Button Name="Back" Click="Back_Click" Grid.Row="0" Grid.Column="0" Background="Transparent" BorderBrush="Transparent"></Button>
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="AantalScherm.png" Stretch="Fill"></ImageBrush>
+        <ImageBrush ImageSource="Resources/AantalScherm.png" Stretch="Fill"></ImageBrush>
     </Window.Background>
 </Window>

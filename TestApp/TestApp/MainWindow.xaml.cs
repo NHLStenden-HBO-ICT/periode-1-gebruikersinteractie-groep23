@@ -16,7 +16,12 @@ namespace TestApp
         public MainWindow()
         {
             InitializeComponent();
-            MessageBox.Show(Convert.ToString(Globals.GlobalGeluid.effectenVolume));
+            //MessageBox.Show(Convert.ToString(Globals.GlobalGeluid.effectenVolume));
+            if (Globals.GlobalGeluid.muziekAan == false)
+            {
+                BackgroundMusicPlayer.Instance.Play();
+                Globals.GlobalGeluid.muziekAan = true;
+            }
         }
 
         private void Play_Click(object sender, RoutedEventArgs e)
@@ -26,10 +31,15 @@ namespace TestApp
             this.Close();
         }
 
-        private void btnOPtie_Click(object sender, RoutedEventArgs e)
+        private void btnOptie_Click(object sender, RoutedEventArgs e)
         {
             OptieWindow optieWindow = new OptieWindow();
             optieWindow.Show();
+            this.Close();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
             this.Close();
         }
     }
