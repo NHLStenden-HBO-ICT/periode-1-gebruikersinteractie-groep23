@@ -1,62 +1,32 @@
-C:\Users\villa\source\repos\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.exe
-C:\Users\villa\source\repos\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.deps.json
-C:\Users\villa\source\repos\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.runtimeconfig.json
-C:\Users\villa\source\repos\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.dll
-C:\Users\villa\source\repos\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.pdb
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.cache
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.lref
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.g.resources
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.AssemblyInfoInputs.cache
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.AssemblyInfo.cs
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.csproj.CoreCompileInputs.cache
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.dll
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\refint\TestApp.dll
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.pdb
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.genruntimeconfig.cache
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\ref\TestApp.dll
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.g.cs
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.g.cs
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.baml
-C:\Users\villa\source\repos\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.baml
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.exe
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.deps.json
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.runtimeconfig.json
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.dll
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.pdb
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.g.cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.g.cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\OptieWindow.g.cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.cache
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.lref
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.baml
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.baml
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\OptieWindow.baml
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.g.resources
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.AssemblyInfoInputs.cache
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.AssemblyInfo.cs
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.csproj.CoreCompileInputs.cache
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.sourcelink.json
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.dll
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\refint\TestApp.dll
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.pdb
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.genruntimeconfig.cache
-C:\Users\Brouwer\Documents\GitWorking\TestApp\TestApp\obj\Debug\net8.0-windows\ref\TestApp.dll
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.g.cs
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.g.cs
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\Level1Window.g.cs
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\OptieWindow.g.cs
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.cache
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.lref
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.dll
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\refint\TestApp.dll
-C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.pdb
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\Level1Window.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\LevelWindow.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\OptieWindow.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.cache
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp_MarkupCompile.lref
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\AantalWindow.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\CharacterWindow.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\Level1Window.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\LevelWindow.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\OptieWindow.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.g.resources
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\refint\TestApp.dll
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.pdb
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\EindScherm.baml
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\EindScherm.g.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.exe
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.deps.json
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.runtimeconfig.json
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.dll
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\bin\Debug\net8.0-windows\TestApp.pdb
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.AssemblyInfoInputs.cache
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.AssemblyInfo.cs
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.dll
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\TestApp.genruntimeconfig.cache
+C:\Users\Rick Velting\Downloads\periode-1-gebruikersinteractie-groep23-main (1)\periode-1-gebruikersinteractie-groep23-main\TestApp\TestApp\obj\Debug\net8.0-windows\ref\TestApp.dll

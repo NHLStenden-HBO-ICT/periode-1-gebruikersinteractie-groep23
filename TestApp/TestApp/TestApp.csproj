@@ -10,18 +10,13 @@
 
 	<ItemGroup>
 		<None Remove="AantalScherm.png" />
+		<None Remove="LevelScherm.png" />
 		<None Remove="NaamScherm.png" />
 		<None Remove="Optiescherm.png" />
 		<None Remove="StartPagina.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Resource Include="AantalScherm.png" />
-	  <Resource Include="NaamScherm.png" />
-	  <Resource Include="Optiescherm.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Resource Include="StartPagina.png" />
+	  <Resource Include="LevelScherm.png" />
 	</ItemGroup>
 </Project>

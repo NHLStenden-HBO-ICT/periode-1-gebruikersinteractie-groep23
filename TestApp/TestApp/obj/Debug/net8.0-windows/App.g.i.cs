@@ -49,7 +49,7 @@ namespace TestApp {
         public void InitializeComponent() {
             
             #line 5 "..\..\..\App.xaml"
-            this.StartupUri = new System.Uri("Level1Window.xaml", System.UriKind.Relative);
+            this.StartupUri = new System.Uri("LevelWindow.xaml", System.UriKind.Relative);
             
             #line default
             #line hidden

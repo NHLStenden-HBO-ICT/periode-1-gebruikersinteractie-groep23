@@ -23,5 +23,19 @@ namespace TestApp
         {
             InitializeComponent();
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            AantalWindow aantalWindow = new AantalWindow();
+            aantalWindow.Show();
+            this.Close();
+        }
+
+        private void Confirm_Click(object sender, RoutedEventArgs e)
+        {
+            LevelWindow levelWindow = new LevelWindow();
+            levelWindow.Show();
+            this.Close();
+        }
     }
 }

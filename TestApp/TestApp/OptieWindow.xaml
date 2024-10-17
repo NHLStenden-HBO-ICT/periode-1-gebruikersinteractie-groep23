@@ -9,14 +9,33 @@ WindowState="Maximized"
 WindowStyle="None"
         Title="OptieWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="78*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="92*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
 
-        <Slider x:Name="sliderEffecten" HorizontalAlignment="Left" Margin="337,147,0,248" Width="230" Maximum="100" SmallChange="1" LargeChange="10" ValueChanged="sliderEffecten_ValueChanged" />
-        <Button x:Name="btnTest" Content="Button" HorizontalAlignment="Left" Margin="217,61,0,0" VerticalAlignment="Top" Click="btnTest_Click"/>
-        <Button x:Name="btnTerug" Content="Button" HorizontalAlignment="Left" Margin="69,130,0,0" VerticalAlignment="Top" Click="btnTerug_Click_1"/>
-        <Slider x:Name="sliderMuziek" HorizontalAlignment="Left" Margin="337,248,0,0" VerticalAlignment="Top" Width="230" ValueChanged="sliderMuziek_ValueChanged"/>
+        <Slider x:Name="sliderEffecten" HorizontalAlignment="Left" Margin="53,15,0,100" Width="230" Maximum="100" SmallChange="1" LargeChange="10" ValueChanged="sliderEffecten_ValueChanged" IsSnapToTickEnabled="True" Grid.Column="1" Grid.Row="1" />
+        <Button x:Name="btnTerug" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="btnTerug_Click_1" Width="80" Height="80" Background="#FFDDDDDD">
+            <Image Source="Resources/BackArrow.png" Width="75" Height="75"/>
+        </Button>
+        <Slider x:Name="sliderMuziek" HorizontalAlignment="Left" Margin="53,116,0,0" VerticalAlignment="Top" Maximum="100" Width="230" ValueChanged="sliderMuziek_ValueChanged" IsSnapToTickEnabled="True" Grid.Column="1" Height="18" Grid.Row="1"/>
+        <Button x:Name="btnEffecten" HorizontalAlignment="Left" Margin="0,2,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnEffecten_Click" Grid.Column="1" Grid.Row="1">
+            <Image x:Name="btnEffectenimg" Source="Resources/imgEffectenAan.png"/>
+        </Button>
+        <Button x:Name="btnMuziek" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnMuziek_Click" Grid.Column="1" Grid.Row="1">
+            <Image x:Name="BtnMuziekimg" Source="Resources/imgMuziekAan.png"/>
+        </Button>
+        <TextBox x:Name="txtEffecten" HorizontalAlignment="Left" Margin="320,15,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="30" Height="18" Grid.Column="1" Grid.Row="1" IsReadOnly="True"/>
+        <TextBox x:Name="txtMuziek" HorizontalAlignment="Left" Margin="320,116,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="30" Height="18" Grid.Column="1" Grid.Row="1" IsReadOnly="True"/>
 
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="Optiescherm.png" Stretch="Fill" ></ImageBrush>
+        <ImageBrush ImageSource="Resources/Optiescherm(nieuw).png" Stretch="Fill" ></ImageBrush>
     </Window.Background>
 </Window>

@@ -16,118 +16,79 @@ namespace game_7_8
     /// </summary>
     public partial class Level1Window : Window
     {
-        private int score = 0;
-        private double playerSpeed = 10;
-        private double jumpSpeed = 15;
-        private double gravity = 0.5;
-        private bool isJumping = false;
-        private double velocityY = 0;
-        private Rect playerHitbox;
-        private DispatcherTimer gameTimer;
+
+        bool Player_jump;
+        int speed = 12;
+        int score = 0;
+        double playerSpeed = 8;
+        int jumpSpeed = 12;
+        int gravity = 1;
+        bool isJumping = false;
+        int velocityY = 0;
+
+        Rect playerHitbox;
+        DispatcherTimer gameTimer = new DispatcherTimer();
+        bool goLeft, goRight;
 
         public Level1Window()
         {
             InitializeComponent();
+
+            GameCanvas.Focus();
+
             gameTimer = new DispatcherTimer();
-            gameTimer.Interval = TimeSpan.FromMilliseconds(20);
             gameTimer.Tick += GameLoop;
+            gameTimer.Interval = TimeSpan.FromMilliseconds(20);
             gameTimer.Start();
         }
-
         private void GameLoop(object sender, EventArgs e)
+
         {
             // Speler beweging en zwaartekracht
+            velocityY += gravity;
             if (isJumping)
             {
-                velocityY += gravity;
                 Canvas.SetTop(Player, Canvas.GetTop(Player) + velocityY);
             }
+            if (goLeft == true && Canvas.GetLeft(Player) > 5)
+            {
+                Canvas.SetLeft(Player, Canvas.GetLeft(Player) - playerSpeed);
+            }
+            if (Application.Current.MainWindow != null)
+            {
+                if (goRight == true && Canvas.GetLeft(Player) + (Player.Width + 20) < Application.Current.MainWindow.Width)
+                {
+                    Canvas.SetLeft(Player, Canvas.GetLeft(Player) + playerSpeed);
+                }
+                Canvas.SetTop(Player, Canvas.GetTop(Player) + velocityY);
 
-            // Collision met platformen
-            CheckCollisionWithPlatforms();
+                if (Canvas.GetTop(Player) + (Player.Height * 2) > Application.Current.MainWindow.Height)
+                {
+                    Canvas.SetTop(Player, -80);
+                }
+            }
+            foreach (var x in GameCanvas.Children.OfType<Rectangle>())
+            {
+                if ((string)x.Tag == "Platform")
+                {
+                    x.Stroke = Brushes.Black;
+                    Rect playerHitBox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
+                    Rect platformHitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
 
-            // Collision met coins
-            CheckCollisionWithCoins();
-
-            // Beweeg vijanden
-            MoveEnemies();
-
-            // Collision met vijanden
-            CheckCollisionWithEnemies();
-
+                    if (playerHitBox.IntersectsWith(platformHitBox) && velocityY >=0)
+                    {
+                        if (Canvas.GetTop(Player) + Player.Height <= Canvas.GetTop(x) + 5)
+                        {
+                            velocityY = 0;
+                            Canvas.SetTop(Player, Canvas.GetTop(x) - Player.Height);
+                            isJumping = false;
+                        }
+                         
+                    }
+                }
+            }
             // Check als speler bij de deur is en alle coins heeft verzameld
             CheckIfGameWon();
-        }
-
-        private void CheckCollisionWithPlatforms()
-        {
-            foreach (var element in GameCanvas.Children)
-            {
-                if (element is Rectangle platform && platform.Fill.ToString() == "Brown")
-                {
-                    playerHitbox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
-                    Rect platformHitbox = new Rect(Canvas.GetLeft(platform), Canvas.GetTop(platform), platform.Width, platform.Height);
-
-                    if (playerHitbox.IntersectsWith(platformHitbox))
-                    {
-                        velocityY = 0;
-                        isJumping = false;
-                        Canvas.SetTop(Player, Canvas.GetTop(platform) - Player.Height);
-                    }
-                }
-            }
-        }
-
-        private void CheckCollisionWithCoins()
-        {
-            if (Player == null) return;
-
-            foreach (var element in GameCanvas.Children)
-            {
-                if (element is Rectangle coin && coin.Tag != null && coin.Tag.ToString() == "Coin")
-                {
-                    Rect coinHitbox = new Rect(Canvas.GetLeft(coin), Canvas.GetTop(coin), coin.Width, coin.Height);
-                    Rect playerHitbox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
-
-                    if (playerHitbox.IntersectsWith(coinHitbox))
-                    {
-                        GameCanvas.Children.Remove(coin); // Verwijder de coin
-                        score++;
-                        ScoreText.Text = "Score: " + score;
-                    }
-                }
-            }
-        }
-
-        private void CheckCollisionWithEnemies()
-        {
-            foreach (var element in GameCanvas.Children)
-            {
-                if (element is Rectangle enemy && enemy.Fill.ToString() == "Pink")
-                {
-                    Rect enemyHitbox = new Rect(Canvas.GetLeft(enemy), Canvas.GetTop(enemy), enemy.Width, enemy.Height);
-                    playerHitbox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
-
-                    if (playerHitbox.IntersectsWith(enemyHitbox))
-                    {
-                        MessageBox.Show("You died!");
-                        ResetGame();
-                    }
-                }
-            }
-        }
-
-        private void MoveEnemies()
-        {
-            // Beweeg de vijanden van links naar rechts
-            double speed = 5;
-            Canvas.SetLeft(Enemy1, Canvas.GetLeft(Enemy1) + speed);
-            Canvas.SetLeft(Enemy2, Canvas.GetLeft(Enemy2) + speed);
-
-            if (Canvas.GetLeft(Enemy1) > GameCanvas.ActualWidth - Enemy1.Width || Canvas.GetLeft(Enemy1) < 0)
-            {
-                speed = -speed; // Keer de richting om
-            }
         }
 
         private void CheckIfGameWon()
@@ -154,20 +115,36 @@ namespace game_7_8
             // Reset de coins en vijanden indien nodig
         }
 
-        private void Window_KeyDown(object sender, KeyEventArgs e)
+        private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            // Speler beweging links/rechts
+           
             if (e.Key == Key.Left)
             {
-                Canvas.SetLeft(Player, Canvas.GetLeft(Player) - playerSpeed);
+                goLeft = true;
             }
-            else if (e.Key == Key.Right)
+            if (e.Key == Key.Right)
             {
-                Canvas.SetLeft(Player, Canvas.GetLeft(Player) + playerSpeed);
+                goRight = true;
             }
-            else if (e.Key == Key.Space && !isJumping)
+            if (e.Key == Key.Space)
             {
                 isJumping = true;
+            }
+        }
+
+        private void KeyIsUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Left)
+            {
+                goLeft = false;
+            }
+            if (e.Key == Key.Right)
+            {
+                goRight = false;
+            }
+            if (e.Key == Key.Space && !isJumping)
+            {
+                isJumping = false;
                 velocityY = -jumpSpeed;
             }
         }
