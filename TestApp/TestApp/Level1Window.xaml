@@ -11,17 +11,19 @@
     <Grid>
         <Canvas Name="GameCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
             <!-- Deur -->
-            <Rectangle x:Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="10" Canvas.Top="10"/>
+            <Rectangle x:Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="1394" Canvas.Top="646" Tag="Exit"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="10" Canvas.Top="750" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="20" Canvas.Top="782" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <!-- Platforms -->
-            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="595" Canvas.Top="696" Tag="Platform"/>
-            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="467" Canvas.Top="750" Tag="Platform" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Rectangle Name="Platform1" Width="402" Height="20" Fill="Brown" Canvas.Top="823" Tag="Platform" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="342" Canvas.Top="792" Tag="Platform"/>
-            <Rectangle Name="Platform5" Width="45" Height="20" Fill="Brown" Canvas.Left="685" Canvas.Top="651" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="291" Canvas.Top="782" Tag="Platform"/>
+            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="154" Canvas.Top="802" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="10" Canvas.Top="830" Tag="Platform"/>
+            <Rectangle Name="Platform5" Width="45" Height="20" Fill="Brown" Canvas.Left="449" Canvas.Top="759" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform6" Width="45" Height="20" Fill="Brown" Canvas.Left="532" Canvas.Top="731" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform7" Width="988" Height="20" Fill="Brown" Canvas.Left="602" Canvas.Top="699" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform8" Width="120" Height="20" Fill="Brown" Canvas.Left="1470" Canvas.Top="636" Tag="Platform"/>
 
             <!-- Score -->
             <TextBlock x:Name="ScoreText" Text="Score: 0" FontSize="16" Canvas.Right="10" Canvas.Top="10"/>

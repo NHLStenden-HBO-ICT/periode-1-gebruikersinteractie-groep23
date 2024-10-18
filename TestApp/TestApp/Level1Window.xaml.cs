@@ -21,10 +21,11 @@ namespace game_7_8
         int speed = 12;
         int score = 0;
         double playerSpeed = 8;
-        int jumpSpeed = 12;
+        int jumpSpeed = 16;
         int gravity = 1;
         bool isJumping = false;
         int velocityY = 0;
+        bool onPlatform;
 
         Rect playerHitbox;
         DispatcherTimer gameTimer = new DispatcherTimer();
@@ -48,6 +49,7 @@ namespace game_7_8
             velocityY += gravity;
             if (isJumping)
             {
+                
                 Canvas.SetTop(Player, Canvas.GetTop(Player) + velocityY);
             }
             if (goLeft == true && Canvas.GetLeft(Player) > 5)
@@ -62,19 +64,20 @@ namespace game_7_8
                 }
                 Canvas.SetTop(Player, Canvas.GetTop(Player) + velocityY);
 
-                if (Canvas.GetTop(Player) + (Player.Height * 0.2) > Application.Current.MainWindow.Height)
+                if (Canvas.GetTop(Player) + (Player.Height * 0.1) > Application.Current.MainWindow.Height)
                 {
                     Canvas.SetTop(Player, -80);
                 }
             }
             foreach (var x in GameCanvas.Children.OfType<Rectangle>())
             {
+                Rect playerHitBox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
+                Rect platformHitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
+
                 if ((string)x.Tag == "Platform")
                 {
                     x.Stroke = Brushes.Black;
-                    Rect playerHitBox = new Rect(Canvas.GetLeft(Player), Canvas.GetTop(Player), Player.Width, Player.Height);
-                    Rect platformHitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
-
+                   
                     if (playerHitBox.IntersectsWith(platformHitBox) && velocityY >= 0)
                     {
                         if (Canvas.GetTop(Player) + Player.Height <= Canvas.GetTop(x) + 5)
@@ -82,8 +85,16 @@ namespace game_7_8
                             velocityY = 0;
                             Canvas.SetTop(Player, Canvas.GetTop(x) - Player.Height);
                             isJumping = false;
+                            onPlatform = true;
                         }
 
+                    }
+                }
+                if ((string)x.Tag == "Exit")
+                {
+                    if (playerHitBox.IntersectsWith(platformHitBox))
+                    {
+                        gameTimer.Stop();
                     }
                 }
             }
@@ -99,7 +110,7 @@ namespace game_7_8
             {
                 goRight = true;
             }
-            if (e.Key == Key.Space)
+            if (e.Key == Key.Up)
             {
                 isJumping = true;
             }
@@ -115,7 +126,7 @@ namespace game_7_8
             {
                 goRight = false;
             }
-            if (e.Key == Key.Space && !isJumping)
+            if (e.Key == Key.Up && !isJumping)
             {
                 isJumping = false;
                 velocityY = -jumpSpeed;
