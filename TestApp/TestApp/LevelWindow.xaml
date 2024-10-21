@@ -26,7 +26,7 @@
 
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="LevelScherm.png" Stretch="Fill"></ImageBrush>
+        <ImageBrush ImageSource="Resources/LevelScherm.png" Stretch="Fill"></ImageBrush>
     </Window.Background>
 
 </Window>
