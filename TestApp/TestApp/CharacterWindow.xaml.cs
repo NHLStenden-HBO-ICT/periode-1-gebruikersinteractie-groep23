@@ -35,11 +35,10 @@ namespace TestApp
         {
 
             // Haal de namen op uit de TextBoxen
-            string spelerNaam1 = SpelerNaamTextBox1.Text;
-            string spelerNaam2 = SpelerNaamTextBox2.Text;
+            PlayerInfo.spelerNaam1 = SpelerNaamTextBox1.Text;
+            PlayerInfo.spelerNaam2 = SpelerNaamTextBox2.Text;
 
-            MessageBox.Show($"Speler 1: {spelerNaam1}, Speler 2: {spelerNaam2}");
-
+            MessageBox.Show($"Speler 1: {PlayerInfo.spelerNaam1}, Speler 2: {PlayerInfo.spelerNaam2}");
             LevelWindow levelWindow = new LevelWindow();
             levelWindow.Show();
             this.Close();

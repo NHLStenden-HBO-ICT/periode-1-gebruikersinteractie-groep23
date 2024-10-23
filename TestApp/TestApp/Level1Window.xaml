@@ -11,19 +11,37 @@
     <Grid>
         <Canvas Name="GameCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
             <!-- Deur -->
-            <Rectangle x:Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="1394" Canvas.Top="646" Tag="Exit"/>
+            <Rectangle Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="25" Canvas.Top="47" Tag="Exit" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle Name="Player" Width="40" Height="40" Fill="Purple" Canvas.Left="20" Canvas.Top="782" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Player1" Width="40" Height="40" Fill="Purple" Canvas.Left="10" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Player2" Width="40" Height="40" Fill="Red" Canvas.Left="45" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <!-- Platforms -->
-            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="291" Canvas.Top="782" Tag="Platform"/>
-            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="154" Canvas.Top="802" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="10" Canvas.Top="830" Tag="Platform"/>
-            <Rectangle Name="Platform5" Width="45" Height="20" Fill="Brown" Canvas.Left="449" Canvas.Top="759" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Rectangle Name="Platform6" Width="45" Height="20" Fill="Brown" Canvas.Left="532" Canvas.Top="731" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Rectangle Name="Platform7" Width="988" Height="20" Fill="Brown" Canvas.Left="602" Canvas.Top="699" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <Rectangle Name="Platform8" Width="120" Height="20" Fill="Brown" Canvas.Left="1470" Canvas.Top="636" Tag="Platform"/>
+            <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="1157" Canvas.Top="175" Tag="Platform"/>
+            <Rectangle Name="Platform3" Width="120" Height="20" Fill="Brown" Canvas.Left="800" Canvas.Top="284" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform2" Width="120" Height="20" Fill="Brown" Canvas.Left="457" Canvas.Top="274" Tag="Platform" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform5" Width="45" Height="20" Fill="Brown" Canvas.Left="715" Canvas.Top="233" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform6" Width="45" Height="20" Fill="Brown" Canvas.Left="234" Canvas.Top="294" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform7" Width="988" Height="20" Fill="Brown" Canvas.Left="0" Canvas.Top="109" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform8" Width="120" Height="20" Fill="Brown" Canvas.Left="974" Canvas.Top="243" Tag="Platform"/>
+            <Rectangle Name="Platform9" Width="150" Height="20" Fill="Brown" Canvas.Top="405" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="10"/>
+            <Rectangle Name="Platform11" Width="197" Height="20" Fill="Brown" Canvas.Left="0" Canvas.Top="830" Tag="Platform" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform12" Width="197" Height="20" Fill="Brown" Canvas.Left="616" Canvas.Top="830" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform13" Width="99" Height="20" Fill="Brown" Canvas.Left="418" Canvas.Top="712" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform14" Width="137" Height="20" Fill="Brown" Canvas.Left="234" Canvas.Top="768" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform15" Width="89" Height="20" Fill="Brown" Canvas.Left="1443" Canvas.Top="668" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform16" Width="66" Height="20" Fill="Brown" Canvas.Left="1237" Canvas.Top="722" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform17" Width="90" Height="20" Fill="Brown" Canvas.Left="1069" Canvas.Top="758" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform18" Width="111" Height="20" Fill="Brown" Canvas.Left="860" Canvas.Top="795" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform19" Width="66" Height="20" Fill="Brown" Canvas.Left="1048" Canvas.Top="465" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform20" Width="66" Height="20" Fill="Brown" Canvas.Left="1157" Canvas.Top="543" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform21" Width="66" Height="20" Fill="Brown" Canvas.Left="1309" Canvas.Top="590" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform22" Width="66" Height="20" Fill="Brown" Canvas.Left="517" Canvas.Top="455" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform23" Width="66" Height="20" Fill="Brown" Canvas.Left="694" Canvas.Top="501" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Platform24" Width="66" Height="20" Fill="Brown" Canvas.Left="882" Canvas.Top="465" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Rectangle Name="Platform25" Width="111" Height="20" Fill="Brown" Canvas.Left="260" Canvas.Top="445" Tag="Platform" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
 
             <!-- Score -->
             <TextBlock x:Name="ScoreText" Text="Score: 0" FontSize="16" Canvas.Right="10" Canvas.Top="10"/>

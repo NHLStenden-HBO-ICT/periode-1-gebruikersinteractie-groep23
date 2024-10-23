@@ -17,6 +17,7 @@
 		<None Remove="Resources\back arrow.png" />
 		<None Remove="Resources\BackArrow.png" />
 		<None Remove="Resources\Background_Muziek.mp3" />
+		<None Remove="Resources\EindScherm.png" />
 		<None Remove="Resources\imgEffectenAan.png" />
 		<None Remove="Resources\imgEffectenuit.png" />
 		<None Remove="Resources\imgMuziekAan.png" />
@@ -36,6 +37,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Resource Include="Resources\EindScherm.png" />
 	  <Resource Include="Resources\LevelScherm.png" />
 	  <Resource Include="Resources\AantalScherm.png" />
 	  <Resource Include="Resources\back arrow.png" />
