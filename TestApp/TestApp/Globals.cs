@@ -11,8 +11,8 @@ namespace TestApp
     {
         public static class PlayerInfo
         {
-            public static string spelerNaam1 { get; set; }
-            public static string spelerNaam2 { get; set; }
+            public static string spelerNaam1 = "";
+            public static string spelerNaam2 = "";
         }
 
         public static class GlobalGeluid
@@ -75,8 +75,3 @@ namespace TestApp
         }
 
     }
-public static class PlayerInfo
-{
-    public static string spelerNaam1 { get; set; }
-    public static string spelerNaam2 { get; set; }
-}
