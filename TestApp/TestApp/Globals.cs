@@ -16,6 +16,12 @@ namespace TestApp
             public static bool optiesGeopend = false;
             public static bool muziekAan = false;
         }
+
+        public class Namen
+        {
+            public static string Spelernaam2 = "";
+            public static string Spelernaam1 = "";
+        }
     }
 
 public class BackgroundMusicPlayer

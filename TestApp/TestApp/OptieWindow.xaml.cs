@@ -15,24 +15,33 @@ using System.Windows.Shapes;
 
 namespace TestApp
 {
-    /// <summary>
-    /// Interaction logic for OptieWindow.xaml
-    /// </summary>
+   
     public partial class OptieWindow : Window
     {
+        // waarde voordat het soort geluid is stil gezet
         public int effectenVoorStil;
         public int MuziekVoorStil;
         public OptieWindow()
         {
             InitializeComponent();
+            // zorgt ervoor dat de sliders goed staan
             sliderEffecten.Value = Globals.GlobalGeluid.effectenVolume;
             sliderMuziek.Value = Globals.GlobalGeluid.muziekVolume;
+            txtMuziek.Text = Convert.ToString(Globals.GlobalGeluid.muziekVolume);
         }
 
         private void sliderEffecten_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             Globals.GlobalGeluid.effectenVolume = Convert.ToInt32(sliderEffecten.Value) ;
             txtEffecten.Text = Convert.ToString(sliderEffecten.Value);
+            if (sliderEffecten.Value == 0)
+            {
+                btnEffectenimg.Source = new BitmapImage(new Uri("Resources/imgEffectenUit.png", UriKind.Relative));
+            }
+            else
+            {
+                btnEffectenimg.Source = new BitmapImage(new Uri("Resources/imgEffectenAan.png", UriKind.Relative));
+            }
         }
 
 
@@ -48,6 +57,14 @@ namespace TestApp
             Globals.GlobalGeluid.muziekVolume = Convert.ToInt32(sliderMuziek.Value);
             BackgroundMusicPlayer.Instance.SetVolume((sliderMuziek.Value / 100));
             txtMuziek.Text = Convert.ToString(sliderMuziek.Value);
+            if (sliderMuziek.Value == 0)
+            {
+                BtnMuziekimg.Source = new BitmapImage(new Uri("Resources/imgMuziekUit.png", UriKind.Relative));
+            }
+            else
+            {
+                BtnMuziekimg.Source = new BitmapImage(new Uri("Resources/imgMuziekAan.png", UriKind.Relative));
+            }
         }
 
         private void btnEffecten_Click(object sender, RoutedEventArgs e)
@@ -71,6 +88,7 @@ namespace TestApp
             {
                 MuziekVoorStil = Convert.ToInt32(sliderMuziek.Value);
                 sliderMuziek.Value = 0;
+                Globals.GlobalGeluid.muziekVolume = 0;
                BtnMuziekimg.Source = new BitmapImage(new Uri("Resources/imgMuziekUit.png", UriKind.Relative));
                 BackgroundMusicPlayer.Instance.SetVolume((sliderMuziek.Value / 100));
 
@@ -78,7 +96,8 @@ namespace TestApp
             else
             {
                 sliderMuziek.Value = MuziekVoorStil;
-               BtnMuziekimg.Source = new BitmapImage(new Uri("Resources/imgMuziekAan.png", UriKind.Relative));
+                Globals.GlobalGeluid.muziekVolume = MuziekVoorStil;
+                BtnMuziekimg.Source = new BitmapImage(new Uri("Resources/imgMuziekAan.png", UriKind.Relative));
                 BackgroundMusicPlayer.Instance.SetVolume((sliderMuziek.Value / 100));
             }
         }

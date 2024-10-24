@@ -34,8 +34,8 @@ namespace TestApp
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            CharacterWindow characterWindow = new CharacterWindow();
-            characterWindow.Show();
+            CustomizationWindow customizationWindow = new CustomizationWindow();
+            customizationWindow.Show();
             this.Close();
         }
     }

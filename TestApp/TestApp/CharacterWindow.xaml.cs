@@ -35,13 +35,15 @@ namespace TestApp
         {
 
             // Haal de namen op uit de TextBoxen
-            string spelerNaam1 = SpelerNaamTextBox1.Text;
-            string spelerNaam2 = SpelerNaamTextBox2.Text;
+            Globals.Namen.Spelernaam1 = SpelerNaamTextBox1.Text;
+            Globals.Namen.Spelernaam2 = SpelerNaamTextBox2.Text;
 
-            MessageBox.Show($"Speler 1: {spelerNaam1}, Speler 2: {spelerNaam2}");
+            //MessageBox.Show($"Speler 1: {Globals.Namen.Spelernaam1}, Speler 2: {Globals.Namen.Spelernaam2}");
 
-            LevelWindow levelWindow = new LevelWindow();
-            levelWindow.Show();
+            //LevelWindow levelWindow = new LevelWindow();
+            //levelWindow.Show();
+            CustomizationWindow customizationWindow = new CustomizationWindow();
+            customizationWindow.Show();
             this.Close();
 
         }
