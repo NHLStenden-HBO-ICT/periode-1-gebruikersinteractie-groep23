@@ -36,7 +36,7 @@
              HorizontalAlignment="Center" VerticalAlignment="Center"
              Width="230" Height="66"
              FontSize="40" VerticalContentAlignment="Center"
-             HorizontalContentAlignment="Center"/>
+             HorizontalContentAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}"/>
 
         <!-- TextBox voor Speler 2 -->
         <TextBox x:Name="SpelerNaamTextBox2"
@@ -44,7 +44,7 @@
              HorizontalAlignment="Center" VerticalAlignment="Center"
              Width="230" Height="65"
              FontSize="40" VerticalContentAlignment="Center"
-             HorizontalContentAlignment="Center"/>
+             HorizontalContentAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}"/>
 
 
 

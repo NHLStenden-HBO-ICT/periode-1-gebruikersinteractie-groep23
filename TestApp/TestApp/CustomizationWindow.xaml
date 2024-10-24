@@ -55,7 +55,7 @@ WindowStyle="None"
         <Image x:Name="imgHoedS1" Grid.Column="1" Margin="71,16,82,150" Grid.Row="3" Stretch="None" Panel.ZIndex="1" Width="112" Height="123" />
         <Image x:Name="imgRobotS2" Grid.Column="2" Grid.Row="3" Margin="46,51,15,17" Source="Resources/GeleRobot.png" Stretch="None" Width="204" Height="221"/>
         <Image x:Name="imgHoedS2" Grid.Column="2" Margin="79,16,74,150" Grid.Row="3" Stretch="None" Panel.ZIndex="1" Width="112" Height="123" />
-        <Button x:Name="btnDone" Grid.Column="3" Content="Button" HorizontalAlignment="Center" Margin="0,15,0,0" Grid.Row="4" VerticalAlignment="Top" Height="40" Width="60" Click="btnDone_Click"/>
+        <Button x:Name="btnDone" Grid.Column="3" Content="Doorgaan" HorizontalAlignment="Center" Margin="0,15,0,0" Grid.Row="4" VerticalAlignment="Top" Height="40" Width="60" Click="btnDone_Click"/>
 
     </Grid>
     <Window.Background>

@@ -23,7 +23,7 @@ namespace TestApp
         public EindScherm()
         {
             InitializeComponent();
-            spelers.Text = PlayerInfo.spelerNaam1 + " en " + PlayerInfo.spelerNaam2 + " LEVEL GEHAALD";
+            spelers.Text = Globals.Namen.Spelernaam1 + " en " + Globals.Namen.Spelernaam2 + " LEVEL GEHAALD";
         }
 
         private void MenuButton_Click(object sender, RoutedEventArgs e)

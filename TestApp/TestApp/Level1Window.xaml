@@ -11,11 +11,19 @@
     <Grid>
         <Canvas Name="GameCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
             <!-- Deur -->
-            <Rectangle Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="25" Canvas.Top="47" Tag="Exit" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Rectangle Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="45" Canvas.Top="64" Tag="Exit" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle Name="Player1" Width="40" Height="40" Fill="Purple" Canvas.Left="10" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Rectangle Name="Player2" Width="40" Height="40" Fill="Red" Canvas.Left="45" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Rectangle Name="Player1" Width="80" Height="80" Canvas.Left="18" Canvas.Top="745" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Resources/BlauweRobot.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Name="Player2" Width="80" Height="80" Canvas.Left="117" Canvas.Top="745" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Resources/GeleRobot.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
 
             <!-- Platforms -->
             <Rectangle Name="Platform4" Width="120" Height="20" Fill="Brown" Canvas.Left="1157" Canvas.Top="175" Tag="Platform"/>
