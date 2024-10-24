@@ -11,6 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using TestApp;
 namespace game_7_8
 {
     /// <summary>
@@ -46,17 +47,17 @@ namespace game_7_8
             InitializeComponent();
 
             GameCanvas.Focus();
-
             gameTimer = new DispatcherTimer();
             gameTimer.Tick += GameLoop;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
             gameTimer.Start();
         }
+
         private void GameLoop(object sender, EventArgs e)
 
         {
             // Speler beweging en zwaartekracht
-            if (velocityY < 4)
+            if (velocityY < 6)
                 velocityY += gravity;
             else
                 velocityY = 4;
@@ -74,10 +75,11 @@ namespace game_7_8
 
                 if (Canvas.GetTop(Player1) + (Player1.Height * 0.1) > Application.Current.MainWindow.Height)
                 {
-                    Canvas.SetTop(Player1, -80);
+                    Canvas.SetLeft(Player1, 25);
+                    Canvas.SetTop(Player1, 790);
                 }
             }
-            if (velocityY2 < 4)
+            if (velocityY2 < 6)
                 velocityY2 += gravity;
             if (isJumping2)
             {
@@ -97,7 +99,8 @@ namespace game_7_8
 
                 if (Canvas.GetTop(Player2) + (Player2.Height * 0.1) > Application.Current.MainWindow.Height)
                 {
-                    Canvas.SetTop(Player2, -80);  // Respawn if falling off
+                    Canvas.SetLeft(Player2, 112);
+                    Canvas.SetTop(Player2, 790);
                 }
             }
 
@@ -133,15 +136,20 @@ namespace game_7_8
                         }
 
                     }
-                    if ((string)x.Tag == "Exit")
+                    
+                }
+                if ((string)x.Tag == "Exit")
+                {
+                    x.Stroke = Brushes.Black;
+
+                    if (playerHitBox.IntersectsWith(platformHitBox) && player2HitBox.IntersectsWith(platformHitBox))
                     {
-                        if (playerHitBox.IntersectsWith(platformHitBox))
-                        {
-                            gameTimer.Stop();
-                        }
+                        EindScherm eindScherm = new EindScherm();
+                        gameTimer.Stop();
+                        eindScherm.Show();
+                        this.Close();
                     }
                 }
-
             }
             if (isJumping)
             {

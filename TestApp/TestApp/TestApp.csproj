@@ -14,27 +14,17 @@
 		<None Remove="NaamScherm.png" />
 		<None Remove="Optiescherm.png" />
 		<None Remove="Resources\AantalScherm.png" />
-		<None Remove="Resources\Arrow.png" />
 		<None Remove="Resources\back arrow.png" />
 		<None Remove="Resources\BackArrow.png" />
 		<None Remove="Resources\Background_Muziek.mp3" />
-		<None Remove="Resources\BlauweRobot.png" />
-		<None Remove="Resources\BouwvakkersHelm.png" />
 		<None Remove="Resources\EindScherm.png" />
-		<None Remove="Resources\GeleRobot.png" />
-		<None Remove="Resources\GroeneRobot.png" />
 		<None Remove="Resources\imgEffectenAan.png" />
 		<None Remove="Resources\imgEffectenuit.png" />
 		<None Remove="Resources\imgMuziekAan.png" />
 		<None Remove="Resources\imgMuziekUit.png" />
-		<None Remove="Resources\KerstmanHoed.png" />
-		<None Remove="Resources\MaskerOranje.png" />
-		<None Remove="Resources\MaskerPaars.png" />
 		<None Remove="Resources\NaamScherm.png" />
 		<None Remove="Resources\optiescherm%28nieuw%29.png" />
 		<None Remove="Resources\Optiescherm%28oud%29.png" />
-		<None Remove="Resources\ReverseArrow.png" />
-		<None Remove="Resources\RozeRobot.png" />
 		<None Remove="Resources\StartPagina.png" />
 		<None Remove="Resources\Tandwiel.png" />
 		<None Remove="StartPagina.png" />
@@ -47,13 +37,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Resource Include="Resources\Arrow.png" />
-	  <Resource Include="Resources\BlauweRobot.png" />
-	  <Resource Include="Resources\BouwvakkersHelm.png" />
 	  <Resource Include="Resources\EindScherm.png" />
-	  <Resource Include="Resources\GeleRobot.png" />
-	  <Resource Include="Resources\GroeneRobot.png" />
-	  <Resource Include="Resources\KerstmanHoed.png" />
 	  <Resource Include="Resources\LevelScherm.png" />
 	  <Resource Include="Resources\AantalScherm.png" />
 	  <Resource Include="Resources\back arrow.png" />
@@ -62,13 +46,9 @@
 	  <Resource Include="Resources\imgEffectenuit.png" />
 	  <Resource Include="Resources\imgMuziekAan.png" />
 	  <Resource Include="Resources\imgMuziekUit.png" />
-	  <Resource Include="Resources\MaskerOranje.png" />
-	  <Resource Include="Resources\MaskerPaars.png" />
 	  <Resource Include="Resources\NaamScherm.png" />
 	  <Resource Include="Resources\optiescherm(nieuw).png" />
 	  <Resource Include="Resources\Optiescherm(oud).png" />
-	  <Resource Include="Resources\ReverseArrow.png" />
-	  <Resource Include="Resources\RozeRobot.png" />
 	  <Resource Include="Resources\StartPagina.png" />
 	  <Resource Include="Resources\Tandwiel.png" />
 	</ItemGroup>
