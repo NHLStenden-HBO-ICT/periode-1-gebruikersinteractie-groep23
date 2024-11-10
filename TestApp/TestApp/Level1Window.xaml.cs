@@ -76,7 +76,7 @@ namespace game_7_8
                 if (Canvas.GetTop(Player1) + (Player1.Height * 0.1) > Application.Current.MainWindow.Height)
                 {
                     Canvas.SetLeft(Player1, 25);
-                    Canvas.SetTop(Player1, 790);
+                    Canvas.SetTop(Player1, 668);
                 }
             }
             if (velocityY2 < 6)
@@ -100,7 +100,7 @@ namespace game_7_8
                 if (Canvas.GetTop(Player2) + (Player2.Height * 0.1) > Application.Current.MainWindow.Height)
                 {
                     Canvas.SetLeft(Player2, 112);
-                    Canvas.SetTop(Player2, 790);
+                    Canvas.SetTop(Player2, 668);
                 }
             }
 
@@ -116,7 +116,7 @@ namespace game_7_8
 
                     if (playerHitBox.IntersectsWith(platformHitBox) && velocityY >= 0)
                     {
-                        if (Canvas.GetTop(Player1) + Player1.Height <= Canvas.GetTop(x) + 5)
+                        if (Canvas.GetTop(Player1) + Player1.Height <= Canvas.GetTop(x) + 10)
                         {
                             velocityY = 0;
                             Canvas.SetTop(Player1, Canvas.GetTop(x) - Player1.Height);
@@ -127,7 +127,7 @@ namespace game_7_8
                     }
                     if (player2HitBox.IntersectsWith(platformHitBox) && velocityY2 >= 0)
                     {
-                        if (Canvas.GetTop(Player2) + Player2.Height <= Canvas.GetTop(x) + 5)
+                        if (Canvas.GetTop(Player2) + Player2.Height <= Canvas.GetTop(x) + 10)
                         {
                             velocityY2 = 0;
                             Canvas.SetTop(Player2, Canvas.GetTop(x) - Player2.Height);
@@ -215,7 +215,7 @@ namespace game_7_8
             {
                 isJumping2 = true;
             }
-
+         
         }
     }
 }

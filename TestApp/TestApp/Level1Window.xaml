@@ -14,12 +14,12 @@
             <Rectangle Name="Door" Width="40" Height="40" Fill="Green" Canvas.Left="45" Canvas.Top="64" Tag="Exit" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <!-- Persoon (speler) -->
-            <Rectangle Name="Player1" Width="80" Height="80" Canvas.Left="18" Canvas.Top="745" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Name="Player1" Width="80" Height="80" Canvas.Left="10" Canvas.Top="668" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <Rectangle.Fill>
                     <ImageBrush ImageSource="/Resources/BlauweRobot.png"/>
                 </Rectangle.Fill>
             </Rectangle>
-            <Rectangle Name="Player2" Width="80" Height="80" Canvas.Left="117" Canvas.Top="745" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Name="Player2" Width="80" Height="80" Canvas.Left="117" Canvas.Top="668" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Rectangle.Fill>
                     <ImageBrush ImageSource="/Resources/GeleRobot.png"/>
                 </Rectangle.Fill>
